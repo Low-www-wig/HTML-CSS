@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
+    <link rel="stylesheet" href="./css/all.css">
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        /* .box9>div{
+            box-shadow: 2px 2px 1px rgb(150, 150, 150);
+        } */
+
+        .box9{
+            background-color: rgb(222, 222, 222);
+            height: 100%;
+            width: 100%;
+        }
+
+        .box2,.box3,.page1,.page2,.page3,.page4{
+            background-color: white;
+        }
+
+        .box1{
+            background-color: rgb(51, 51, 51); 
+        }
+
+        .box1 i{ 
+            padding: 10px;
+            padding-left: 40px;
+            font-size: 40px;
+            color: white;
+        }
+
+        .box1 ul{
+            list-style: inside;
+            display: inline;
+        }
+
+        .box1 ul li{
+            font-size: 14px;
+            float: right;
+            margin-left: 10px;
+            padding-top: 20px;
+            text-decoration: none;
+        }
+
+        .box1 ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .box1 ul li a:hover{
+            color: grey;
+        }
+
+        .box2{
+            float: left;
+            width: 67%;
+            margin: 1.67%;
+            background-color: rgb(222, 222, 222);
+        }
+
+        .box2 .page1,.page2,.page3,.page4{
+            box-shadow: 3px 3px 5px rgb(150, 150, 150);
+        }
+
+        .box2 p{
+            text-indent:2em;
+        } 
+
+        .page2 ul li{
+            list-style: none;
+        }
+
+        .page3 p{
+            padding-top: 3%;
+            padding-right: 20%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .page3 div{
+            height: 25%;
+            width: 17%;
+            text-align: center;
+            border: 1px rgb(206, 206, 206) solid;
+            margin-bottom: 3%;
+        }
+
+        .page3{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-shrink: 0;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+        table tfoot{
+            background-color: rgb(204, 204, 204);
+        }
+
+        .box3{
+            float: left;
+            width: 28%;
+            margin-top: 1.67%;
+            margin-right: 1.66%;
+            box-shadow: 2px 2px 1px rgb(150, 150, 150);
+        }
+
+
+        .box3 .submit{
+            background-color: rgb(51, 85, 209);
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            padding-top: 4px;;
+            border-radius: 8px;
+        }
+
+        .box3 span{
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .box4{
+            height: 50px;
+            background-color: black;
+            text-align: center;
+            padding-top: 25px;
+            clear: both;
+        }
+
+        p{
+            line-height: 150%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box9">
+        <div class="box1">
+            <i class="fab fa-earlybirds"></i>
+            <ul>
+                <li>
+                    <a href="javascript:;" style="margin-right: 20px;">导航链接四</a>
+                </li>
+                <li>
+                    <a href="javascript:;">导航链接三</a>
+                </li>
+                <li>
+                    <a href="javascript:;">导航链接二</a>
+                </li>
+                <li>
+                    <a href="javascript:;">导航链接一</a>
+                </li>
+               
+            </ul>
+        </div>
+
+
+
+        <div class="box2">
+            <div class="page1" style="margin-bottom: 1.67%; padding-left: 2%;padding-top: 4%;padding-right: 2%;padding-bottom: 4%;">
+                <h1 style="margin-bottom: 2%;">文章一级标题</h1>
+                <h2 style="font-size: 22px; margin-bottom: 1.5%;color: rgb(118, 123, 121);">文章二级标题</h2>
+                <span style="color: rgb(118, 123, 121);">文章作者</span>
+                <span style="color: rgb(118, 123, 121);">文章发表时间</span>
+                <p style="margin-top: 1.5%;">
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <p>
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <p>
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。<a href="javascript:;">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。<b>这里有个粗体字。</b>这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <img src="./bald_baby.jpg" alt="随便摸鱼找的图片" style="width: 20%; height: 20%">
+                <p>
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <p>
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <p>
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。<a href="javascript:;">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。<b>这里有个粗体字。</b>这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+            </div>
+
+            <div class="page2" style="margin-bottom: 1.67%; padding-left: 2%;padding-top: 4%;padding-right: 2%;padding-bottom: 4%;">
+                <h1 style="font-weight: bold; font-size: 28px; margin-bottom: 2%;">另一篇文章一级标题</h1>
+                <h2 style="font-size: 22px; margin-bottom: 1.5%;color: rgb(118, 123, 121);">文章二级标题</h2>
+                <span style="color: rgb(118, 123, 121);">文章作者</span>
+                <span style="color: rgb(118, 123, 121);">文章发表时间</span>
+                <p style="margin-top: 1.5%;">
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <p>
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <p>
+                    这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。<a href="javascript:;">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。<b>这里有个粗体字。</b>这是一个很长很长的段落。这是一个很长很长的段落。这是一个很长很长的段落。换行了。
+                </p>
+                <img src="./bald_baby.jpg" alt="随便摸鱼找的图片" style="width: 20%; height: 20%">
+                <ul style="padding-left: 2%;">
+                    <li>列表项目一</li>
+                    <li>列表项目二</li>
+                    <li>列表项目三</li>
+                </ul>
+            </div>
+
+            <div class="page3" style="margin-bottom: 1.67%;padding-left: 3%;padding-right: 9%;">
+                    <h1 style="flex-basis: 100%;margin: 3%;">图片</h1>
+                    <div class="pic1">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic2">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic3">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic4">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic5">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic6">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic7">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic8">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic9">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="pic10">
+                        <p>好看的图片</p>
+                        <img src="./bald_baby.jpg" alt="好看的图片" style="height: 100%;width: 100%;">
+                    </div>
+                    
+                    
+            </div>
+
+            <div class="page4" style=" padding-left: 2%;padding-top: 4%;padding-right: 2%;padding-bottom: 4%;">
+                <h1 style="margin-bottom: 2%;">最后一篇文章一级标题</h1>
+                <h2 style="font-size: 22px; margin-bottom: 1.5%;color: rgb(118, 123, 121);">文章二级标题</h2>
+                <span style="color: rgb(118, 123, 121);">文章作者</span>
+                <span style="color: rgb(118, 123, 121);">文章发表时间</span>
+                <ol style="margin-left: 5%; font-weight: bold;margin-top: 1.5%; margin-bottom: 2%;">
+                    <li>排名1</li>
+                    <li>排名2</li>
+                    <li>排名3</li>
+                </ol>
+                <span>下面是一个表格</span>
+                <table border="1" width=100% align="center" bordercolor="#CCCCCC">
+                    <thead style="background-color: rgb(51, 51, 51);color: white;">
+                        <tr>
+                            <td>表头</td>
+                            <td>表头</td>
+                            <td>表头</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="javascript:;">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="javascript:;">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="javascript:;">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="javascript:;">操作</a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td >总计</td>
+                            <td colspan="2">1000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                
+            </div>
+
+        </div>
+
+
+
+        <div class="box3">
+            <h1 style="font-weight: bold;display: block; text-align: center;padding-top: 5%;font-size: 18px;">这里以后是一个侧栏，这是侧栏的标题</h1>
+            <div class="input" style="padding-left: 12%;padding-top: 5%;">
+                <div class="input1" style="margin-bottom:1.5%">
+                    <span>请输入邮箱地址</span>
+                    <input type="text" placeholder="这是一个文本输入框">    
+                </div>
+                <span style="font-weight: unset; padding-left: 25%;color: rgb(179, 179, 179);">邮箱地址请按要求格式输入</span>
+                <div class="input2" style="padding-left: 6.7%; margin-top:1.5%; margin-bottom:1.5%;">
+                    <span>请输入密码</span>
+                    <input type="password" value="123456789">
+                </div>
+                <div class="input3" style="margin-bottom:1.5%">
+                    <span>请重复输入密码</span>
+                <input type="password" value="123456789">
+                </div>
+                <span style="font-weight: unset; padding-left: 25%;color: rgb(179, 179, 179);">密码请为6-16位英文数字</span>
+            </div>
+            <div class="choose" style="padding-left: 27%;">
+                <div class="choose1" style="margin-top: 3%;">
+                    <span style="padding-right: 1.5%;">性别</span>
+                    <input type="radio" name="sex" value="male" checked>
+                    <input type="radio" name="sex" value="female">
+                </div>
+                <div class="choose2" style="margin-top: 3%;">
+                    <span >城市</span>
+                    <select name="city">
+                        <option value="1">北京</option>
+                        <option value="2">上海</option>
+                        <option value="3">广州</option>
+                        <option value="4">深圳</option>
+                        <option value="5">其他</option>
+                    </select>
+                </div>
+                <div class="choose3" style="margin-top: 3%;">
+                    <span>爱好</span>
+                    <input type="checkbox" value="1">
+                    <span>运动</span>
+                    <input type="checkbox" value="2">
+                    <span>艺术</span>
+                    <input type="checkbox" value="3">
+                    <span>科学</span>
+                </div>
+            </div>
+            <div class="self_description" style="padding-left: 21%;margin-top: 3%;">
+                <span style="display: inline-block;">个人描述</span>
+                <textarea cols="30" rows="10" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+            </div>
+            <div class="submit" style="margin:5% 10%;width: 80%; height: 28px;">
+                <a href="javascript:;" style="text-decoration: none;color: white;">确认提交</a>
+            </div>
+        </div>
+
+
+        <div class="box4">
+            <span style="color: white;">版权所有</span>
+            <i class="fas fa-copyright" style="color: white;"></i>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
